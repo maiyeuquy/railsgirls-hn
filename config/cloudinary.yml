@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dybbdrx41
+  api_key: '777729914115983'
+  api_secret: BI4z29wOJ4dnSRBFtfTL9tWo0P4
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dybbdrx41
+  api_key: '777729914115983'
+  api_secret: BI4z29wOJ4dnSRBFtfTL9tWo0P4
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dybbdrx41
+  api_key: '777729914115983'
+  api_secret: BI4z29wOJ4dnSRBFtfTL9tWo0P4
+  enhance_image_tag: true
+  static_image_support: false

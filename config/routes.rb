@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :comments
   get 'pages/info'
 
   resources :ideas
@@ -60,4 +62,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  
+  resource :user, only: [:edit, :update]
+  
 end
